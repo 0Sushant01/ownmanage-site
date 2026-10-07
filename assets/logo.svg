@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" width="220" height="48" fill="none">
+  <defs>
+    <linearGradient id="omLogoGrad" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <linearGradient id="omAccentGrad" x1="12" y1="14" x2="36" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <filter id="logoShadow" x="0" y="2" width="48" height="46" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#0F172A" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <!-- Icon Mark -->
+  <g transform="translate(2, 2)">
+    <rect x="2" y="2" width="40" height="40" rx="10" fill="url(#omLogoGrad)" filter="url(#logoShadow)"/>
+    <circle cx="22" cy="22" r="14" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="2.5" />
+    <path d="M13 29V16L22 24L31 16V29" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="22" cy="13" r="2.5" fill="url(#omAccentGrad)"/>
+    <path d="M20 29L24 29" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <!-- Wordmark -->
+  <g transform="translate(56, 31)">
+    <text font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.03em" fill="#0F172A">
+      OWN<tspan fill="#2563EB">MANAGE</tspan>
+    </text>
+  </g>
+</svg>

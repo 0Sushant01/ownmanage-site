@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="omFavGrad" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <linearGradient id="omAccentGrad" x1="12" y1="14" x2="36" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="2" width="48" height="46" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0F172A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect x="4" y="4" width="40" height="40" rx="10" fill="url(#omFavGrad)" filter="url(#shadow)"/>
+  <!-- Stylized Monogram: Intersecting O & M with precision attendance check / clock arc -->
+  <circle cx="24" cy="24" r="14" stroke="#FFFFFF" stroke-opacity="0.15" stroke-width="2.5" />
+  <path d="M15 31V18L24 26L33 18V31" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="24" cy="15" r="2.5" fill="url(#omAccentGrad)"/>
+  <path d="M22 31L26 31" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
